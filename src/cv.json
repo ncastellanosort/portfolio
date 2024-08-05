@@ -1,0 +1,139 @@
+{
+   "basics": {
+      "name": "Nicolas Castellanos",
+      "label": "Backend Developer",
+      "image": "",
+      "email": "nicoortega334@gmail.com",
+      "phone": "+57 3112501057",
+      "url": "https://johndoe.com",
+      "summary": "A summary of John Doe…",
+      "location": {
+         "address": "2712 Broadway St",
+         "postalCode": "110110",
+         "city": "Bogota",
+         "countryCode": "COL",
+         "region": "Colombia"
+      },
+      "profiles": [
+         {
+            "network": "LinkedIn",
+            "username": "nicolas-castellanoss",
+            "url": "https://www.linkedin.com/in/nicolas-castellanoss/"
+         },
+         {
+            "network": "GitHub",
+            "username": "ncastellanosort",
+            "url": "https://github.com/ncastellanosort/"
+         }
+      ]
+   },
+   "work": [
+      {
+         "name": "Company",
+         "position": "President",
+         "url": "https://company.com",
+         "startDate": "2013-01-01",
+         "endDate": "2014-01-01",
+         "summary": "Description…",
+         "highlights": [
+            "Started the company"
+         ]
+      }
+   ],
+   "volunteer": [
+      {
+         "organization": "Microsoft",
+         "position": "Volunteer",
+         "url": "https://mvp.microsoft.com/studentambassadors",
+         "startDate": "2023-09-12",
+         "endDate": "2024-08-01",
+         "summary": "sssss",
+         "highlights": [
+            "Microsoft Learn Student Ambassador (Alpha)"
+         ]
+      }
+   ],
+   "education": [
+      {
+         "institution": "Universidad Manuela Beltran",
+         "url": "https://umb.edu.co/",
+         "area": "Software Engineering",
+         "studyType": "Bachelor",
+         "startDate": "2023-02-01",
+         "endDate": "Now",
+         "score": "4.2",
+         "courses": [
+            "DB1101 - Basic SQL"
+         ]
+      }
+   ],
+   "awards": [
+      {
+         "title": "Award",
+         "date": "2014-11-01",
+         "awarder": "Company",
+         "summary": "There is no spoon."
+      }
+   ],
+   "certificates": [
+      {
+         "name": "Certificate",
+         "date": "2021-11-07",
+         "issuer": "Company",
+         "url": "https://certificate.com"
+      }
+   ],
+   "publications": [
+      {
+         "name": "Publication",
+         "publisher": "Company",
+         "releaseDate": "2014-10-01",
+         "url": "https://publication.com",
+         "summary": "Description…"
+      }
+   ],
+   "skills": [
+      {
+         "name": "Web Development",
+         "level": "Master",
+         "keywords": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+         ]
+      }
+   ],
+   "languages": [
+      {
+         "language": "English",
+         "fluency": "Native speaker"
+      }
+   ],
+   "interests": [
+      {
+         "name": "Wildlife",
+         "keywords": [
+            "Ferrets",
+            "Unicorns"
+         ]
+      }
+   ],
+   "references": [
+      {
+         "name": "Jane Doe",
+         "reference": "Reference…"
+      }
+   ],
+   "projects": [
+      {
+         "name": "Project",
+         "startDate": "2019-01-01",
+         "endDate": "2021-01-01",
+         "description": "Description...",
+         "highlights": [
+            "Won award at AIHacks 2016"
+         ],
+         "url": "https://project.com/"
+      }
+   ]
+}
