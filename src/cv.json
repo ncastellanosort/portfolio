@@ -1,19 +1,12 @@
 {
    "basics": {
-      "name": "Nicolas Castellanos",
+      "name": "Nicolas Felipe Castellanos Ortega",
       "label": "Backend Developer",
-      "image": "",
+      "image": "./profile.jpg",
       "email": "nicoortega334@gmail.com",
       "phone": "+57 3112501057",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-         "address": "2712 Broadway St",
-         "postalCode": "110110",
-         "city": "Bogota",
-         "countryCode": "COL",
-         "region": "Colombia"
-      },
+      "summary": "Fourth semester Software Engineering student with a strong interest in backend development. Knowledgeable in several programming languages, databases and frameworks, he is always learning new things. Motivated by the challenges of backend development and passionate about finding creative solutions to problems.",
+      "location": "Bogota, Colombia",
       "profiles": [
          {
             "network": "LinkedIn",
@@ -60,19 +53,8 @@
          "area": "Software Engineering",
          "studyType": "Bachelor",
          "startDate": "2023-02-01",
-         "endDate": "Now",
-         "score": "4.2",
-         "courses": [
-            "DB1101 - Basic SQL"
-         ]
-      }
-   ],
-   "awards": [
-      {
-         "title": "Award",
-         "date": "2014-11-01",
-         "awarder": "Company",
-         "summary": "There is no spoon."
+         "endDate": "Currently",
+         "score": "4.2"
       }
    ],
    "certificates": [
