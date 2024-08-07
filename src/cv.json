@@ -5,7 +5,7 @@
       "image": "./profile.jpg",
       "email": "nicoortega334@gmail.com",
       "phone": "+57 3112501057",
-      "summary": "Fourth semester Software Engineering student with a strong interest in backend development. Knowledgeable in several programming languages, databases and frameworks, he is always learning new things. Motivated by the challenges of backend development and passionate about finding creative solutions to problems.",
+      "summary": "Fourth semester Software Engineering student with a strong interest in backend development. Knowledgeable in several programming languages, databases and frameworks, he is always learning new things. Motivated by the challenges of backend development and passionate about finding creative solutions to problems. CAMBIARLOOOOOOOOO ALGO MAS CORTO",
       "location": "Bogota, Colombia",
       "profiles": [
          {
@@ -76,12 +76,29 @@
    ],
    "skills": [
       {
-         "name": "Web Development",
-         "level": "Master",
+         "name": "Frontend",
          "keywords": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "TypeScript",
+            "Astro"
+         ]
+      },
+      {
+         "name": "Backend",
+         "keywords": [
+            "Java",
+            "Python"
+         ]
+      },
+      {
+         "name": "Frameworks",
+         "keywords": [
+            "Spring Boot",
+            "Django",
+            "React",
+            "Tailwind CSS"
          ]
       }
    ],
@@ -108,14 +125,24 @@
    ],
    "projects": [
       {
-         "name": "Project",
-         "startDate": "2019-01-01",
-         "endDate": "2021-01-01",
-         "description": "Description...",
-         "highlights": [
-            "Won award at AIHacks 2016"
-         ],
-         "url": "https://project.com/"
+         "name": "Mall Center Project",
+         "description": "Software para Centro Comercial Trebolis Capellania",
+         "url": "https://github.com/ncastellanosort/analisis-proyecto-cc"
+      },
+      {
+         "name": "Binary Search Tree",
+         "description": "Implementación de un Binary Tree en Java",
+         "url": "https://github.com/ncastellanosort/est-ejercicio-arbol-binario"
+      },
+      {
+         "name": "CRUD Estudiantes",
+         "description": "CRUD Estudiantes con MySQL, Java, Docker y Arquitectura MVC",
+         "url": "https://github.com/ncastellanosort/pr-estudiantes-mysql-java-MVC-Docker"
+      },
+      {
+         "name": "Torres de Hanoi",
+         "description": "Ejercicio Torres de Hanoi en Java",
+         "url": "https://github.com/ncastellanosort/est-ejercicio-torres-hanoi"
       }
    ]
 }

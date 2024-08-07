@@ -1,16 +1,26 @@
 ---
-import { basics } from "../cv.json";
-
+import { projects } from "../cv.json";
+import ProjectCard from "./ProjectCard.astro";
 ---
 
 <section>
    <div class="grid grid-cols-1 p-4 text-xl">
       <div>
-         <h2 class="font-medium p-4 md: text-2xl">Projects</h2>
+         <h2 class="font-bold p-4 md: text-2xl">Projects</h2>
       </div>
 
       <div>
-         <h2 class="p-4">projects</h2>
+         {
+            projects.map((project) => {
+               return (
+                  <ProjectCard
+                     name={project.name}
+                     description={project.description}
+                     url={project.url}
+                  />
+               );
+            })
+         }
       </div>
    </div>
 </section>

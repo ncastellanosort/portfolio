@@ -1,5 +1,14 @@
 ---
 import { basics } from "../cv.json";
+import Github from "./icons/Github.astro";
+import LinkedIn from "./icons/LinkedIn.astro";
+import Mail from "./icons/Mail.astro";
+import Phone from "./icons/Phone.astro";
+import WorldMap from "./icons/WorldMap.astro";
+
+import Email from "./icons/Email.astro";
+
+
 
 const { name, label, image, email, phone, location } = basics;
 ---
@@ -19,16 +28,71 @@ const { name, label, image, email, phone, location } = basics;
    </div> -->
 
    <!-- Celular -->
-   <div class="grid grid-cols-1 text-left p-4 text-zinc-900">
+   <div class="grid grid-cols-1 text-left p-4 text-zinc-900 md:grid-cols-2">
       <div>
          <h1 class="text-4xl font-bold md:text-6xl p-4">{name}</h1>
+      </div>
+      <!-- sm:hidden -->
+      <div class="m-auto">
+         <figure class="p-4">
+            <img src={image} class="rounded-full h-48" />
+         </figure>
+      </div>
+      <div>
          <h2 class="text-1xl font-medium md: text-2xl p-4">{label}</h2>
-         <h2 class="text-lg p-4 md:text-2xl">{location}</h2>
+         <span class="flex p-4">
+            <div class="py-0.5">
+               {
+                  (
+                     <a>
+                        <WorldMap />
+                     </a>
+                  )
+               }
+            </div>
+            <div>
+               <h2 class="text-xl ml-4 ">
+                  {location}
+               </h2>
+            </div>
+         </span>
+
+         <span class="flex flex-row p-4 space-x-4">
+            {
+               (
+                  <a>
+                     {" "}
+                     <Github />
+                  </a>
+               )
+            }
+            {
+               (
+                  <a>
+                     {" "}
+                     <LinkedIn />
+                  </a>
+               )
+            }
+            {
+               (
+                  <a>
+                     {" "}
+                     <Email/>
+                     <Mail />
+                  </a>
+               )
+            }
+            {
+               (
+                  <a>
+                     {" "}
+                     <Phone />
+                  </a>
+               )
+            }
+         </span>
       </div>
    </div>
-
-   <div class="grid grid-cols-1 text-xl text-left p-4">
-      <h2 class="p-4">{email}</h2>
-      <h2 class="p-4">{phone}</h2>
-   </div>
 </section>
+
