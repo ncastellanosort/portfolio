@@ -6,31 +6,13 @@ import Mail from "./icons/Mail.astro";
 import Phone from "./icons/Phone.astro";
 import WorldMap from "./icons/WorldMap.astro";
 
-import Email from "./icons/Email.astro";
-
-
-
 const { name, label, image, email, phone, location } = basics;
 ---
 
 <section>
-   <!-- PC
-   <div class="bg-zinc-200 grid grid-cols-2 text-left p-4 text-zinc-900">
-      <div>
-         <h1 class="text-4xl p-4 font-bold md:text-6xl">{name}</h1>
-         <h2 class="text-1xl p-4 font-medium md: text-2xl">{label}</h2>
-      </div>
-      <div class="m-auto sm:hidden">
-         <figure class="p-4">
-            <img src={image} class="rounded-full h-48" />
-         </figure>
-      </div>
-   </div> -->
-
-   <!-- Celular -->
    <div class="grid grid-cols-1 text-left p-4 text-zinc-900 md:grid-cols-2">
       <div>
-         <h1 class="text-4xl font-bold md:text-6xl p-4">{name}</h1>
+         <h1 class="text-2xl font-bold md:text-6xl p-4">{name}</h1>
       </div>
       <!-- sm:hidden -->
       <div class="m-auto">
@@ -51,7 +33,7 @@ const { name, label, image, email, phone, location } = basics;
                }
             </div>
             <div>
-               <h2 class="text-xl ml-4 ">
+               <h2 class="text-xl ml-2">
                   {location}
                </h2>
             </div>
@@ -60,7 +42,7 @@ const { name, label, image, email, phone, location } = basics;
          <span class="flex flex-row p-4 space-x-4">
             {
                (
-                  <a>
+                  <a href={basics.profiles[1].url} target="_blank">
                      {" "}
                      <Github />
                   </a>
@@ -68,7 +50,7 @@ const { name, label, image, email, phone, location } = basics;
             }
             {
                (
-                  <a>
+                  <a href={basics.profiles[0].url} target="_blank">
                      {" "}
                      <LinkedIn />
                   </a>
@@ -76,16 +58,15 @@ const { name, label, image, email, phone, location } = basics;
             }
             {
                (
-                  <a>
+                  <a href={`Email: ${email}`} target="_blank" title="hola">
                      {" "}
-                     <Email/>
                      <Mail />
                   </a>
                )
             }
             {
                (
-                  <a>
+                  <a href={`Phone: ${phone}`} target="_blank" title="hola">
                      {" "}
                      <Phone />
                   </a>
@@ -95,4 +76,3 @@ const { name, label, image, email, phone, location } = basics;
       </div>
    </div>
 </section>
-

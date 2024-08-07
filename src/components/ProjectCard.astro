@@ -1,4 +1,6 @@
 ---
+import Github from "./icons/Github.astro";
+
 interface Props {
    name: string;
    description: string;
@@ -11,5 +13,8 @@ const { name, description, url } = Astro.props;
 <div class="p-4">
    <h2 class="font-medium mb-5 md: text-2xl">{name}</h2>
    <p class="mb-5">{description}</p>
-   <a href={url} class="font-semibold" target="_blank">Github</a>
+   <span class="flex flex-row">
+      <a class="pt-0.5">{(<Github />)}</a>
+      <a href={url} class="font-semibold ml-2" target="_blank">Github</a>
+   </span>
 </div>
