@@ -11,12 +11,12 @@ const { name, label, image, email, phone, location } = basics;
 
 <section>
    <div class="grid grid-cols-1 text-left p-4 text-zinc-900 md:grid-cols-2">
-      <div>
+      <div class="my-auto">
          <h1 class="text-2xl font-bold md:text-6xl p-4">{name}</h1>
       </div>
       <!-- sm:hidden -->
-      <div class="m-auto">
-         <figure class="p-4">
+      <div class="">
+         <figure class="p-4 flex justify-end">
             <img src={image} class="rounded-full h-48" />
          </figure>
       </div>
@@ -33,7 +33,7 @@ const { name, label, image, email, phone, location } = basics;
                }
             </div>
             <div>
-               <h2 class="text-xl ml-2">
+               <h2 class="text-xl font-medium ml-2">
                   {location}
                </h2>
             </div>
@@ -42,7 +42,11 @@ const { name, label, image, email, phone, location } = basics;
          <span class="flex flex-row p-4 space-x-4">
             {
                (
-                  <a href={basics.profiles[1].url} target="_blank">
+                  <a
+                     href={basics.profiles[1].url}
+                     target="_blank"
+                     class="rounded p-1 border border-zinc-600 hover:border-zinc-200 hover:transition-all"
+                  >
                      {" "}
                      <Github />
                   </a>
@@ -50,7 +54,11 @@ const { name, label, image, email, phone, location } = basics;
             }
             {
                (
-                  <a href={basics.profiles[0].url} target="_blank">
+                  <a
+                     href={basics.profiles[0].url}
+                     target="_blank"
+                     class="rounded p-1 border border-zinc-600 hover:border-zinc-200 hover:transition-all"
+                  >
                      {" "}
                      <LinkedIn />
                   </a>
@@ -58,7 +66,11 @@ const { name, label, image, email, phone, location } = basics;
             }
             {
                (
-                  <a href={`Email: ${email}`} target="_blank" title="hola">
+                  <a
+                     href={`Email: ${email}`}
+                     target="_blank"
+                     class="rounded p-1 border border-zinc-600 hover:border-zinc-200 hover:transition-all"
+                  >
                      {" "}
                      <Mail />
                   </a>
@@ -66,7 +78,11 @@ const { name, label, image, email, phone, location } = basics;
             }
             {
                (
-                  <a href={`Phone: ${phone}`} target="_blank" title="hola">
+                  <a
+                     href={`Phone: ${phone}`}
+                     target="_blank"
+                     class="rounded p-1 border border-zinc-600 hover:border-zinc-200 hover:transition-all"
+                  >
                      {" "}
                      <Phone />
                   </a>

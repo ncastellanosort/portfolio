@@ -1,6 +1,6 @@
 ---
-import { basics } from "../cv.json";
-
+import { experience } from "../cv.json";
+import ExperienceCard from "./ExperienceCard.astro";
 ---
 
 <section>
@@ -9,8 +9,22 @@ import { basics } from "../cv.json";
          <h2 class="font-bold p-4 md: text-2xl">Experience</h2>
       </div>
 
-      <div>
-         <h2 class="p-4">experience</h2>
+      <div class="p-5">
+         <ol class="relative border-s border-gray-200 dark:border-zinc-800">
+            {
+               experience.map((exp) => {
+                  return (
+                     <ExperienceCard
+                        name={exp.name}
+                        endDate={exp.endDate}
+                        summary={exp.summary}
+                        position={exp.position}
+                        url={exp.url}
+                     />
+                  );
+               })
+            }
+         </ol>
       </div>
    </div>
 </section>

@@ -10,11 +10,15 @@ interface Props {
 const { name, description, url } = Astro.props;
 ---
 
-<div class="p-4">
-   <h2 class="font-medium mb-5 md: text-2xl">{name}</h2>
+<div class="m-4 p-5 border border-zinc-900 rounded  hover:border-zinc-200 hover:transition-all">
+   <h2 class="font-medium mb-5 md: text-xl">{name}</h2>
    <p class="mb-5">{description}</p>
    <span class="flex flex-row">
-      <a class="pt-0.5">{(<Github />)}</a>
-      <a href={url} class="font-semibold ml-2" target="_blank">Github</a>
+      <a href={url} class="pt-0.5">{(<Github />)}</a>
+      <a
+         href={url}
+         class="font-semibold ml-2 hover:underline hover:decoration-zinc-900"
+         target="_blank">Github</a
+      >
    </span>
 </div>

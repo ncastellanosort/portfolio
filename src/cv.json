@@ -1,11 +1,11 @@
 {
    "basics": {
-      "name": "Nicolas Felipe Castellanos Ortega",
+      "name": "Nicolas Castellanos ",
       "label": "Backend Developer",
       "image": "./profile.jpg",
       "email": "nicoortega334@gmail.com",
       "phone": "+57 3112501057",
-      "summary": "Fourth semester Software Engineering student with a strong interest in backend development. Knowledgeable in several programming languages, databases and frameworks, he is always learning new things. Motivated by the challenges of backend development and passionate about finding creative solutions to problems. CAMBIARLOOOOOOOOO ALGO MAS CORTO",
+      "summary": "Passionate about solving problems creatively, I am always eager to learn new technologies and methodologies.",
       "location": "Bogota, Colombia",
       "profiles": [
          {
@@ -20,107 +20,80 @@
          }
       ]
    },
-   "work": [
+   "experience": [
       {
-         "name": "Company",
-         "position": "President",
-         "url": "https://company.com",
+         "name": "Google",
+         "position": "Principal Sofware Engineer Architect",
          "startDate": "2013-01-01",
-         "endDate": "2014-01-01",
-         "summary": "Description…",
-         "highlights": [
-            "Started the company"
-         ]
-      }
-   ],
-   "volunteer": [
+         "endDate": "Currently",
+         "summary": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit deserunt nostrum ducimus eos.",
+         "url": "https://google.com"
+      },
       {
-         "organization": "Microsoft",
-         "position": "Volunteer",
-         "url": "https://mvp.microsoft.com/studentambassadors",
-         "startDate": "2023-09-12",
-         "endDate": "2024-08-01",
-         "summary": "sssss",
-         "highlights": [
-            "Microsoft Learn Student Ambassador (Alpha)"
-         ]
+         "name": "Google",
+         "position": "Principal Sofware Engineer Architect",
+         "startDate": "2013-01-01",
+         "endDate": "March 2024",
+         "summary": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit deserunt nostrum ducimus eos.",
+         "url": "https://google.com"
+      },
+      {
+         "name": "Google",
+         "position": "Principal Sofware Engineer Architect",
+         "startDate": "2013-01-01",
+         "endDate": "March 2024",
+         "summary": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit deserunt nostrum ducimus eos.",
+         "url": "https://google.com"
+      },
+      {
+         "name": "Google",
+         "position": "Principal Sofware Engineer Architect",
+         "startDate": "2013-01-01",
+         "endDate": "March 2024",
+         "summary": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor odit deserunt nostrum ducimus eos.",
+         "url": "https://google.com"
       }
    ],
    "education": [
       {
          "institution": "Universidad Manuela Beltran",
-         "url": "https://umb.edu.co/",
-         "area": "Software Engineering",
-         "studyType": "Bachelor",
-         "startDate": "2023-02-01",
+         "startDate": "2023",
          "endDate": "Currently",
-         "score": "4.2"
-      }
-   ],
-   "certificates": [
+         "description": "Fourth Semester Bachelor's Degree in Software Engineering.",
+         "url": "https://umb.edu.co/"
+      },
       {
-         "name": "Certificate",
-         "date": "2021-11-07",
-         "issuer": "Company",
-         "url": "https://certificate.com"
-      }
-   ],
-   "publications": [
-      {
-         "name": "Publication",
-         "publisher": "Company",
-         "releaseDate": "2014-10-01",
-         "url": "https://publication.com",
-         "summary": "Description…"
+         "institution": "Microsoft Learn Student Ambassador (Alpha)",
+         "startDate": "2023",
+         "endDate": "2024",
+         "description": "Entered MLSA to build ideas with Microsoft Technology.",
+         "url": "https://mvp.microsoft.com/studentambassadors"
       }
    ],
    "skills": [
       {
-         "name": "Frontend",
-         "keywords": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "TypeScript",
-            "Astro"
-         ]
+         "name": "Java"
       },
       {
-         "name": "Backend",
-         "keywords": [
-            "Java",
-            "Python"
-         ]
+         "name": "Spring Boot"
       },
       {
-         "name": "Frameworks",
-         "keywords": [
-            "Spring Boot",
-            "Django",
-            "React",
-            "Tailwind CSS"
-         ]
-      }
-   ],
-   "languages": [
+         "name": "Python"
+      },
       {
-         "language": "English",
-         "fluency": "Native speaker"
-      }
-   ],
-   "interests": [
+         "name": "JavaScript/TypeScript"
+      },
       {
-         "name": "Wildlife",
-         "keywords": [
-            "Ferrets",
-            "Unicorns"
-         ]
-      }
-   ],
-   "references": [
+         "name": "MongoDB"
+      },
       {
-         "name": "Jane Doe",
-         "reference": "Reference…"
+         "name": "MySQL"
+      },
+      {
+         "name": "PostgreSQL"
+      },
+      {
+         "name": "Docker"
       }
    ],
    "projects": [

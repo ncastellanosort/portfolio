@@ -1,6 +1,6 @@
 ---
-import { basics } from "../cv.json";
-
+import { education } from "../cv.json";
+import EducationCard from "./EducationCard.astro";
 ---
 
 <section>
@@ -9,8 +9,22 @@ import { basics } from "../cv.json";
          <h2 class="font-bold p-4 md: text-2xl">Education</h2>
       </div>
 
-      <div class="grid grid-cols-1">
-         <h2 class="p-4">education</h2>
+      <div class="p-5">
+         <ol class="relative border-s border-gray-200 dark:border-zinc-800">
+            {
+               education.map((ed) => {
+                  return (
+                     <EducationCard
+                        institution={ed.institution}
+                        startDate={ed.startDate}
+                        endDate={ed.endDate}
+                        description={ed.description}
+                        url={ed.url}
+                     />
+                  );
+               })
+            }
+         </ol>
       </div>
    </div>
 </section>
