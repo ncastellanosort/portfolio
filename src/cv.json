@@ -1,12 +1,14 @@
 {
    "basics": {
-      "name": "Nicolas Castellanos ",
+      "name": "Nicolás Castellanos ",
       "label": "Backend Developer",
       "image": "./profile.jpg",
       "email": "nicoortega334@gmail.com",
       "phone": "+57 3112501057",
       "summary": "Passionate about solving problems creatively, I am always eager to learn new technologies and methodologies.",
       "location": "Bogota, Colombia",
+      "page_icon": "./icon.ico",
+      "page_description": "Welcome to my portfolio, here you can find all my process as a Software Developer. ",
       "profiles": [
          {
             "network": "LinkedIn",
@@ -99,22 +101,22 @@
    "projects": [
       {
          "name": "Mall Center Project",
-         "description": "Software para Centro Comercial Trebolis Capellania",
+         "description": "Software para Centro Comercial Trebolis Capellania.",
          "url": "https://github.com/ncastellanosort/analisis-proyecto-cc"
       },
       {
          "name": "Binary Search Tree",
-         "description": "Implementación de un Binary Tree en Java",
+         "description": "Implementación de un Binary Tree en Java.",
          "url": "https://github.com/ncastellanosort/est-ejercicio-arbol-binario"
       },
       {
          "name": "CRUD Estudiantes",
-         "description": "CRUD Estudiantes con MySQL, Java, Docker y Arquitectura MVC",
+         "description": "CRUD Estudiantes con MySQL, Java, Docker y Arquitectura MVC.",
          "url": "https://github.com/ncastellanosort/pr-estudiantes-mysql-java-MVC-Docker"
       },
       {
          "name": "Torres de Hanoi",
-         "description": "Ejercicio Torres de Hanoi en Java",
+         "description": "Ejercicio Torres de Hanoi en Java.",
          "url": "https://github.com/ncastellanosort/est-ejercicio-torres-hanoi"
       }
    ]

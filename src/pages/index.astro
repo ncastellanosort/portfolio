@@ -1,15 +1,17 @@
 ---
-import Layout from "../layouts/Layout.astro";
-
 import About from "../components/About.astro";
 import Education from "../components/Education.astro";
 import Experience from "../components/Experience.astro";
 import Hero from "../components/Hero.astro";
+import Layout from "../layouts/Layout.astro";
 import Projects from "../components/Projects.astro";
 import Skills from "../components/Skills.astro";
+import { basics } from "../cv.json";
+
+const { page_description } = basics;
 ---
 
-<Layout title="Portfolio">
+<Layout title="Nicolás Castellanos" description={page_description}>
 	<main class="max-w-screen-md m-auto">
 		<Hero />
 		<About />
